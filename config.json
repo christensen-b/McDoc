@@ -1,0 +1,18 @@
+{
+  "mcdoc": {
+    "version": "0.1.0",
+    "templates_dir": "templates",
+    "documents_dir": "documents",
+    "library_dir": "library",
+    "examples_dir": "examples"
+  },
+  "defaults": {
+    "template": "basic",
+    "author": "Unknown"
+  },
+  "library": {
+    "auto_save": true,
+    "naming_format": "{title}_{timestamp}",
+    "include_metadata": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "basic",
+  "description": "Basic document template with title, author, and body",
+  "version": "1.0",
+  "required_fields": ["title", "body", "author"]
+}
