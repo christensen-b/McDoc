@@ -1,0 +1,2 @@
+# McDoc
+documentation library
