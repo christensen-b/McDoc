@@ -1,0 +1,5 @@
+# McDoc Optional Dependencies
+# Install with: pip install -r requirements.txt
+
+# For Markdown frontmatter support
+pyyaml>=6.0

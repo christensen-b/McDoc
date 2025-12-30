@@ -1,0 +1,19 @@
+{
+  "name": "meeting_notes",
+  "description": "Template for meeting notes and minutes",
+  "version": "1.0",
+  "required_fields": [
+    "title",
+    "meeting_date",
+    "meeting_time",
+    "location",
+    "facilitator",
+    "attendees",
+    "agenda",
+    "discussion",
+    "decisions",
+    "action_items",
+    "next_meeting",
+    "author"
+  ]
+}

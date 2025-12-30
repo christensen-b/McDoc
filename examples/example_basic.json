@@ -1,0 +1,12 @@
+{
+  "title": "My First Document",
+  "template": "basic",
+  "content": {
+    "body": "This is an example document demonstrating the McDoc framework.\n\nMcDoc allows you to create uniform documents by:\n1. Selecting a template\n2. Providing your content\n3. Processing the document\n4. Adding it to the library\n\nThis ensures all documents follow the same formatting standards.",
+    "author": "John Doe"
+  },
+  "metadata": {
+    "category": "example",
+    "tags": ["demo", "introduction"]
+  }
+}

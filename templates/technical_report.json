@@ -1,0 +1,20 @@
+{
+  "name": "technical_report",
+  "description": "Comprehensive technical report template",
+  "version": "1.0",
+  "required_fields": [
+    "title",
+    "author",
+    "department",
+    "document_id",
+    "version",
+    "status",
+    "executive_summary",
+    "introduction",
+    "technical_details",
+    "analysis",
+    "conclusions",
+    "recommendations",
+    "classification"
+  ]
+}
