@@ -282,6 +282,7 @@ Our security program aligns with NIST CSF:
 ## Contact Information
 
 ### Security Team
+**Note: Update these contact details with your organization's actual information**
 - **Security Operations Center (SOC)**: soc@organization.com / +1-XXX-XXX-XXXX (24/7)
 - **CISO Office**: ciso@organization.com
 - **Security Incidents**: security-incidents@organization.com

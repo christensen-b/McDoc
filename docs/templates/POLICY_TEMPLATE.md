@@ -71,6 +71,8 @@
 
 ## Approval
 
+**Note**: This approval section can be adapted for your organization's approval workflow. For digital/git-based workflows, consider using pull request approvals instead of physical signatures.
+
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
 | Policy Owner | | | |

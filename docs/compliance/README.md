@@ -294,6 +294,7 @@ This directory contains compliance-related documentation including regulatory re
 ## Contact Information
 
 ### Compliance Team
+**Note: Update these contact details with your organization's actual information**
 - **Compliance Officer**: compliance@organization.com
 - **Privacy Officer**: privacy@organization.com
 - **Data Protection Officer**: dpo@organization.com

@@ -157,7 +157,7 @@ Exceptions to this policy:
 - Must include compensating controls
 - Are reviewed annually
 
-Exception requests should be submitted to security@organization.com
+Exception requests should be submitted to security@organization.com (update with your organization's email)
 
 ## Related Documents
 
@@ -174,6 +174,8 @@ Exception requests should be submitted to security@organization.com
 | 1.0 | 2025-12-30 | Security Team | Initial version |
 
 ## Approval
+
+**Note**: This approval section can be adapted for your organization's approval workflow. For digital/git-based workflows, consider using pull request approvals instead of physical signatures.
 
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
