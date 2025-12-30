@@ -8,6 +8,12 @@ from typing import Dict, Any, Optional
 from pathlib import Path
 from .document import Document
 
+try:
+    import yaml
+    YAML_AVAILABLE = True
+except ImportError:
+    YAML_AVAILABLE = False
+
 
 class DocumentImporter:
     """Import user-created documents into McDoc system"""
@@ -65,16 +71,16 @@ class DocumentImporter:
         content_metadata = metadata or {}
         content_body = md_content
         
-        if md_content.startswith('---'):
+        if md_content.startswith('---') and YAML_AVAILABLE:
             parts = md_content.split('---', 2)
             if len(parts) >= 3:
-                import yaml
                 try:
                     frontmatter = yaml.safe_load(parts[1])
                     if isinstance(frontmatter, dict):
                         content_metadata.update(frontmatter)
                     content_body = parts[2].strip()
-                except:
+                except (yaml.YAMLError, ValueError) as e:
+                    # If YAML parsing fails, treat the whole file as content
                     pass
         
         content = {

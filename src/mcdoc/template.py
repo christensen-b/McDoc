@@ -3,6 +3,7 @@ Template system for McDoc
 """
 
 import os
+import re
 import json
 from typing import Dict, Any, List, Optional
 from pathlib import Path
@@ -55,7 +56,6 @@ class Template:
         Returns:
             List of required field names
         """
-        import re
         pattern = r'\{\{([^}]+)\}\}'
         matches = re.findall(pattern, self.content)
         return list(set(matches))
