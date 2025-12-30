@@ -1,0 +1,33 @@
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+.cache/
+
+# Build artifacts
+dist/
+build/
+*.pdf
+*.docx
+*.html
+
+# Local environment
+.env
+.env.local
+
+# Documentation build outputs
+site/
+_site/
+.jekyll-cache/
+
+# OS files
+Thumbs.db
+desktop.ini
