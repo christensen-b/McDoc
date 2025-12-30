@@ -4,6 +4,8 @@ This directory contains runbooks for managing and troubleshooting IT systems and
 
 ## Runbook Index
 
+**Note**: Phone numbers shown below are placeholders. Update with your organization's actual on-call contact information.
+
 | Runbook ID | System/Service | Owner | On-Call | Status |
 |------------|----------------|-------|---------|--------|
 | RUN-WEB-001 | Web Application Server | App Team | +1-XXX-XXX-XXXX | Active |

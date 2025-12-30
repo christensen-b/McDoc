@@ -99,9 +99,10 @@ Quick reference indexes for each category to find what you need fast.
 
 ## Getting Started
 
-1. **Clone the repository**
+1. **Fork or Clone the repository**
    ```bash
-   git clone https://github.com/christensen-b/McDoc.git
+   # Clone this repository or fork it to your organization
+   git clone <your-repository-url>
    cd McDoc
    ```
 
